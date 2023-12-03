@@ -1,2 +1,16 @@
-package org.example;public class ProjectConfig {
+package org.example;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("org.example")
+public class ProjectConfig {
+
+    /*@Bean
+    public CommentService commentService(){
+        return new CommentService();
+    }*/
+
 }
